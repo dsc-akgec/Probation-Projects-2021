@@ -10,4 +10,4 @@ Made by - Hirnaymay Bhaskar (DESIGNING)
 
 # ATTACHED FILE
 
-DSC_Task1_Updated.pdf is a PDF file directly exproted from figma and it only contains the frames. So please check the Figma link.
+    DSC_Task1_Updated.pdf is a PDF file directly exproted from figma and it only contains the frames. So please check the Figma link.
