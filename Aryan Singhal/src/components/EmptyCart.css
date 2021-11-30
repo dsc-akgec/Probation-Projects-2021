@@ -1,0 +1,16 @@
+.emptyCart {
+  height: 84vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+.cartEmpty {
+  margin: 3rem;
+}
+.emptyButton {
+  padding: 1rem;
+  background-color: #af6b05;
+  color: white;
+}

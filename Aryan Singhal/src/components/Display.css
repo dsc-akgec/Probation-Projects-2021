@@ -1,0 +1,134 @@
+.Pages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 70%;
+  height: 100%;
+  overflow: hidden;
+}
+.searchBar input {
+  height: 2rem;
+  width: 25rem;
+  border: 0.1rem solid black;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.searchBar button {
+  width: 20%;
+  height: 2.15rem;
+  font-size: 1rem;
+}
+.searchBar input::placeholder {
+  font-size: 100%;
+  color: black;
+}
+.searchBar {
+  margin: 2rem;
+  height: 2rem;
+  width: 50%;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 5;
+  align-items: stretch;
+}
+.urCart {
+  margin: 2rem;
+  height: 2rem;
+  width: 25%;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 5;
+  align-items: stretch;
+  color: white;
+}
+
+.images {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  background-size: cover;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.slideshow {
+  display: flex;
+  width: 300%;
+  height: 100%;
+  position: relative;
+  animation: slshow 20s infinite;
+  overflow: hidden;
+}
+.content {
+  position: relative;
+  width: 100%;
+}
+.slshow {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://mcdn.wallpapersafari.com/medium/96/47/w2tSHy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@keyframes slshow {
+  0% {
+    left: 0;
+  }
+  10% {
+    left: 0;
+  }
+  15% {
+    left: -100%;
+  }
+  25% {
+    left: -100%;
+  }
+  30% {
+    left: -200%;
+  }
+  40% {
+    left: -200%;
+  }
+  45% {
+    left: -300%;
+  }
+  55% {
+    left: -300%;
+  }
+  60% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -100%;
+  }
+  85% {
+    left: -100%;
+  }
+  90% {
+    left: 0%;
+  }
+}
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

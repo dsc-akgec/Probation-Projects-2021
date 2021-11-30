@@ -1,0 +1,53 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+.cards {
+  margin: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 25rem;
+  width: 19rem;
+  border-radius: 1rem;
+  border: 0.1rem solid black;
+  align-items: center;
+  padding: 0.5rem;
+}
+#prodImage {
+  width: 100%;
+  height: 70%;
+}
+
+.proDesc {
+  height: 85%;
+  width: 90%;
+  justify-content: center;
+}
+
+.cards img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.Info {
+  color: black;
+  text-align: left;
+  width: 100%;
+  height: 27%;
+  overflow-y: hidden;
+  margin-left: 0.2rem;
+}
+.Addbtns {
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.Add {
+  width: 7rem;
+  height: 3rem;
+  border-radius: 10px;
+}
