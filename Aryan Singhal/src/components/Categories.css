@@ -1,0 +1,19 @@
+.categories {
+  width: 81.024vw;
+  height: 50%;
+  margin: 2rem 1rem;
+  border-radius: 5px;
+  padding: 3rem;
+  border: 0.1rem solid grey;
+  box-shadow: 1rem 1rem 1rem grey;
+  background-color: #780904;
+  color: white;
+}
+.item {
+  height: 100%;
+  width: 100%;
+  background-image: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

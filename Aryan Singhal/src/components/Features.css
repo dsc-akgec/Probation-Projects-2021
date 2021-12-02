@@ -1,0 +1,27 @@
+.spec {
+  width: 20rem;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+  flex-direction: row;
+  border: 0.1rem solid grey;
+  box-shadow: 1rem 1rem 1rem grey;
+  border-radius: 0.5rem;
+}
+.specImage {
+  max-width: 100%;
+  max-height: 40%;
+}
+.features {
+  margin: 0rem 2rem 0rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+}
+.about h1 {
+  font-size: 1rem;
+  word-wrap: break-word;
+}

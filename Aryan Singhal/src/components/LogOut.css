@@ -1,0 +1,10 @@
+.logout{
+    width: 99.992vw;
+    height: 92.7vh;
+    background-color: #780607;
+    color: white;
+    background-size: cover;
+}
+.logout h3{
+    text-align: center;
+}
